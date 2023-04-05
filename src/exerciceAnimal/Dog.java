@@ -15,7 +15,7 @@ public class Dog extends Animal implements Walkable, Jumpable{
 	public String stop() {
 		return "I'm stopping";
 	}
-	@Override
+
 	public String talk() {
 		return "AUAU";
 	}
