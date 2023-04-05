@@ -5,6 +5,10 @@ public class Account {
 	private String owner;
 	private String number;
 	protected double balance;
+	
+	public Account() {
+		super();
+	}
 
 	public Account(String number) {
 		this.number = number;
@@ -37,5 +41,12 @@ public class Account {
 				+ "Number Account :" + number + "\n"
 				+ "balance :" + balance + "\n");
 	}
+
+	@Override
+	public String toString() {
+		return "Account [owner=" + owner + ", number=" + number + ", balance=" + balance + "]";
+	}
+	
+	
 
 }

@@ -4,17 +4,19 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		SavingAccount c1 = new SavingAccount("1234" , 1.2);
+		Account a1 = new Account();
+		
+		a1.setOwner("Carlos");
+		a1.setNumber("1234");
+		a1.setBalance(1000.0);
+		
+		
+		System.out.println(a1);
+		
 
-		System.out.println(c1.getNumber());
-		
-		System.out.println(c1.getRate());
 		
 		
-		
-		
-
-	}
+		}
 
 }
 
