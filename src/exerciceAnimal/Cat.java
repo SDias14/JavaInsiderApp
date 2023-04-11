@@ -19,6 +19,11 @@ public class Cat extends Dog{
 		return "nene";
 	}
 	
+	@Override
+	public void sleep(int time) {
+		System.out.println("Cat sleeps for : " + time + " Hours" );
+	}
+	
 	
 
 }

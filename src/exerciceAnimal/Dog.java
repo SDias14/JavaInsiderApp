@@ -24,5 +24,11 @@ public class Dog extends Animal implements Walkable, Jumpable{
 	public String jump() {
 		return "puts putz";
 	}
+	
+	
+	@Override
+	public void sleep(int time) {
+		System.out.println("Dog sleeps for : " + time + " Hours" );
+	}
 
 }
